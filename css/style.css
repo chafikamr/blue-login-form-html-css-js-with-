@@ -1,0 +1,125 @@
+/*
+** Title  : Log In form with blue background
+** Author : Chafik Amroui 
+** Design : https://elzero.org/frontend-blue-signup-form/
+** Date   : 11/09/2021
+*/
+
+
+/* Global Rules  */
+*,
+*::after,
+*::before{ box-sizing: border-box}
+
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color:#2196f3;
+    font-family: 'cairo';
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+/* End Global Rules  */
+ 
+.form_container {
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 5px
+}
+
+form h2 {
+    text-align: center;
+    color: rgb(100, 100, 100)
+}
+
+.form_container form div { position: relative }
+
+.form_container form div label {
+    font-size: 12px;
+    position: absolute;
+    bottom: 9px;
+    left: 0px;
+    transition: bottom .3s ease-in-out;
+    color: rgb(126, 126, 126)
+}
+
+.form_container form div label i {
+   margin-right: 10px;
+   display: inline-block
+}
+ 
+.form_container form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #8b8b8b;
+    outline: none;
+    font-size: 14px;
+    caret-color: darkgray;
+    color: rgb(48, 48, 48)
+}
+
+.form_container form input[type=submit] {
+    border-bottom: 0;
+    color: white;
+    background-color:#2196f3;
+    border-radius: 5px;
+    font-size: unset;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form_container .footer .have_acc {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    border-bottom: 1px dashed grey
+}
+
+.form_container .footer .have_acc a {
+   font-weight: bold;
+   color: rgb(0, 160, 235);
+   text-decoration: none
+}
+
+.form_container .footer .social_logn {
+    text-align: center;
+    padding: 20px 0 10px
+}
+
+.form_container .footer .social_logn span {
+   display: block;
+   margin-bottom: 20px;
+   font-size: 13px
+}
+
+.form_container .footer .social_logn i {
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   border-radius: 50%;
+   margin: 0 4px;
+   font-size: 13px
+}
+
+
+.fa-twitter { background-color: #00bcd4}
+.fa-facebook-f { background-color: #3f51b5}
+.fa-google-plus-g{ background-color: #f44336}
+
+
